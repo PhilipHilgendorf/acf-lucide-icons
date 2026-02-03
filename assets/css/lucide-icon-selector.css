@@ -1,0 +1,46 @@
+.acf-lucideicons-list{
+    max-height:300px;padding: 10px 3px;
+    overflow-y: auto;
+}
+ 
+.acf-lucideicons-list .acf-lucideicons-container i {
+    cursor: pointer;
+    display:inline-block;
+    font-size: 22px;
+    padding:10px;
+    text-align: center;
+}
+
+.acf-lucideicons-list .acf-lucideicons-container {
+    border:1px solid #ccc;
+    display:inline-block;
+    margin: 3px;
+    border-radius: 4px;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+}
+
+.acf-lucideicons-list .acf-lucideicons-container .acf-lucideicons-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.acf-lucideicons-list .acf-lucideicons-container:hover,.acf-lucideicons-list .acf-lucideicons-container.selected {
+    border:2px solid #0783be;
+    padding: 0px;
+}
+
+.acf-lucideicons-list-empty {
+    display: flex;
+    display: none;
+    flex-direction: column;
+}
+
+.acf-lucideicons-list-empty img {
+    margin: auto;
+    width: 33%;
+}
